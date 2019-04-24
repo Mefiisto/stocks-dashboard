@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #090D16;
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0px;
+}
+
+
+.navButtonsWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 380px;
+  margin: 0px 0px 30px 222px;
+}

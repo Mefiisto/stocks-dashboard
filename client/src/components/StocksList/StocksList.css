@@ -1,0 +1,45 @@
+.StocksList {
+  list-style: none;
+  margin: 0;
+  padding: 0px 20px;
+}
+
+.StocksList li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  font-weight: 600;
+  background: #b9b5850a;
+  padding: 4px 0px;
+}
+
+.StocksList li:first-child {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding: 5px 0px;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rightSide div {
+  min-width: 130px;
+  text-align: left;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 130px;
+  text-align: left;
+}
+
+.leftSide div {
+  min-width: 130px;
+  text-align: left;
+}
